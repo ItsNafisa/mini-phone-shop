@@ -92,15 +92,16 @@ header .menu{
    header nav ul{
     display: none;
       position: absolute;
-      background-color: black;
+      background-color: #123;
       top: 60px;
       left: 0;
       width: 100%;
       z-index: 20;
-    
+    transition: .4;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
     }
     header nav ul li{
-        padding: 12px;
+        padding: 20px;
     }
          header nav ul.active{
      display: block;
